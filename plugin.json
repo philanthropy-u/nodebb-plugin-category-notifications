@@ -1,4 +1,6 @@
 {
+    "id": "nodebb-plugin-custom-join",
+    "url": "https://github.com/philanthropy-u/nodebb-plugin-custom-join.git",
     "library": "./index.js",
     "staticDirs": {
         "category-notifications": "public"
