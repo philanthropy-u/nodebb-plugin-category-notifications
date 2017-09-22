@@ -1,11 +1,11 @@
 {
-  "name": "nodebb-plugin-category-notifications",
-  "version": "3.0.0",
-  "description": "Category notifications",
+  "name": "nodebb-plugin-custom-join",
+  "version": "1.0.2",
+  "description": "Custom Join",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/NodeBB/nodebb-plugin-category-notifications"
+    "url": "https://github.com/philanthropy-u/nodebb-plugin-custom-join.git"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -13,8 +13,9 @@
   "keywords": [
     "nodebb",
     "plugin",
-    "notification",
-    "category"
+    "custom",
+    "category",
+    "join"
   ],
   "author": "Baris Usakli <baris@nodebb.org>",
   "license": "MIT",
