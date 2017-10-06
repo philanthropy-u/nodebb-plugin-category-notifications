@@ -17,5 +17,5 @@
 	],
     "templates": "./public/templates",
     "languages": "languages",
-    "defaultLang": "en-GB"
+    "defaultLang": "en-US"
 }
