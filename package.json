@@ -1,6 +1,6 @@
 {
   "name": "nodebb-plugin-custom-join",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Custom Join",
   "main": "index.js",
   "repository": {
