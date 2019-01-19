@@ -7,6 +7,7 @@
 			<div class="form-group">
 				<label>Notification Setting</label>
 				<select id="notificationSetting" name="type" class="form-control" >
+					<option value="off">Off</option>
 					<option value="email">Send Email Only</option>
 					<option value="notification">Send Notification Only</option>
 					<option value="both">Send Both Email and Notification</option>
