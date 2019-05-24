@@ -5,6 +5,9 @@
 $(document).ready(function() {
 
 	$(window).on('action:ajaxify.end', function() {
+		var parentCid = ajaxify.data.parentCid
+		var isTeamCommunity = parentCid > 0
+		if (isTeamCommunity) return
 
 		if (app.template === 'category' && app.user.uid) {
 			var unsubscribeHtml = '<button type="button" class="btn btn-default btn-warning unsubscribe">[[categorynotifications:unsubscribe]]</button>';
